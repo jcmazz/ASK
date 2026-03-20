@@ -135,10 +135,18 @@ Dominio:      <key findings>
 Skills:       <N> recomendados, <M> a crear
 Arquitectura: <recommended pattern>
 Prompts:      <techniques identified>
+
+📁 Archivos generados/actualizados:
+  - ask-state/research.md — Hallazgos de investigación
+  - ask-state/org-profile.md — Perfil organizacional actualizado
+  - ask-state/state.json — Estado actualizado
 ---
 
 ¿Querés que profundice en algo o avanzamos a Architecture?
 ```
+
+💡 Si la conversación se hizo larga, podés iniciar una sesión nueva.
+Los archivos de contexto ya están guardados — usá `/ask:resume` en la nueva sesión para retomar con contexto fresco.
 
 ## cmux Integration
 

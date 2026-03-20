@@ -142,10 +142,18 @@ Checklist:  <X/Y> passed
 Smoke Test: <X/Y> passed
 Issues:     <count> found
 Verdict:    <Ready / Needs work>
+
+📁 Archivos generados/actualizados:
+  - ask-state/validation-report.md — Reporte de validación
+  - ask-state/test-scenarios.md — Escenarios de test
+  - ask-state/state.json — Estado actualizado
 ---
 
 ¿Iteramos sobre los issues (/ask:iterate) o el agente está listo?
 ```
+
+💡 Si la conversación se hizo larga, podés iniciar una sesión nueva.
+Los archivos de contexto ya están guardados — usá `/ask:resume` en la nueva sesión para retomar con contexto fresco.
 
 ## cmux Integration
 ```bash

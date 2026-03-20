@@ -73,6 +73,11 @@ Immediately transition into the discovery interview. Begin with Bloque A (El Age
 
 Start with: **"Arrancamos. Contame en tus palabras: ¿qué hace este agente? ¿Cuál es su razón de existir?"**
 
+> **a)** Automatiza un proceso interno (ej: clasificar tickets, procesar documentos)
+> **b)** Asiste a un equipo en tareas complejas (ej: research, análisis, redacción)
+> **c)** Interactúa con usuarios finales (ej: atención al cliente, onboarding)
+> **d)** Otro — contame
+
 Then follow the adaptive interview protocol from `/ask:discovery`.
 
 ---
