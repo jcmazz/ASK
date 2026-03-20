@@ -162,10 +162,17 @@ Archivos:      <count> files to generate
 Skills:        <count> to install, <count> to create
 Integraciones: <list>
 Guardrails:    <count> rules
+
+📁 Archivos generados/actualizados:
+  - ask-state/architecture.md — Arquitectura completa (Approved: pending)
+  - ask-state/state.json — Estado actualizado
 ---
 
 ¿Aprobás esta arquitectura, querés modificar algo, o volvemos a Discovery/Research?
 ```
+
+💡 Si la conversación se hizo larga, podés iniciar una sesión nueva.
+Los archivos de contexto ya están guardados — usá `/ask:resume` en la nueva sesión para retomar con contexto fresco.
 
 Only proceed to Build after explicit operator approval. Update `architecture.md` with `Approved: yes` and timestamp.
 

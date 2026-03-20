@@ -226,10 +226,18 @@ Archivos:  <count> generados
 Skills:    <count> instalados
 Memory:    <structure summary>
 Prompts:   <count> generados
+
+📁 Archivos generados:
+  - [listar cada archivo del file-manifest.json con su path y líneas]
+  - ask-state/file-manifest.json — Inventario de archivos
+  - ask-state/build-log.md — Log del build
 ---
 
 ¿Querés revisar los archivos antes de validar, o avanzamos a Validate?
 ```
+
+💡 Si la conversación se hizo larga, podés iniciar una sesión nueva.
+Los archivos de contexto ya están guardados — usá `/ask:resume` en la nueva sesión para retomar con contexto fresco.
 
 ## cmux Integration
 ```bash

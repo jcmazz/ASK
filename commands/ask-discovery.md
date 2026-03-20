@@ -33,6 +33,10 @@ If discovery is already complete, ask: **"Discovery ya está completo. ¿Querés
 4. Usá las respuestas anteriores para contextualizar las siguientes preguntas.
 5. Cuando tengas suficiente en un tema, hacé un mini-resumen y confirmá antes de avanzar.
 6. Escribí en el idioma que use el operador (español por default para Juan).
+7. Siempre ofrecé 2-3 opciones sugeridas después de cada pregunta. Las opciones son atajos, no límites — el operador puede elegir una, combinar, o ignorarlas y responder libre. Formato:
+   > **a)** Opción concreta basada en el contexto
+   > **b)** Otra opción razonable
+   > **c)** Otra alternativa (o "Otro — contame")
 
 ---
 
@@ -74,7 +78,15 @@ If discovery is already complete, ask: **"Discovery ya está completo. ¿Querés
 - ¿Consume APIs? ¿Expone endpoints? ¿Accede a DBs directamente?
 - ¿Dónde corre? (server, cloud, local, edge)
 
-**Al terminar Bloque A:** Mini-resumen de lo capturado. Preguntá si hay algo que ajustar. Actualizá `agent-spec.md`.
+**Al terminar Bloque A:** Mini-resumen de lo capturado. Preguntá:
+
+**"¿Querés profundizar en algún tema de este bloque, seguir explorando con más preguntas, o avanzamos al siguiente?"**
+
+> **a)** Profundizar en [tema específico que quedó light]
+> **b)** Más preguntas — seguí indagando
+> **c)** Avanzar al siguiente bloque
+
+Actualizá `agent-spec.md`.
 
 ---
 
@@ -102,7 +114,15 @@ If discovery is already complete, ask: **"Discovery ya está completo. ¿Querés
 - ¿Hay competencia interna por recursos/atención?
 - ¿Quién necesita ver resultados y en qué formato?
 
-**Al terminar Bloque B:** Mini-resumen. Actualizá `org-profile.md`.
+**Al terminar Bloque B:** Mini-resumen. Preguntá:
+
+**"¿Querés profundizar en algún tema de este bloque, seguir explorando con más preguntas, o avanzamos al siguiente?"**
+
+> **a)** Profundizar en [tema específico que quedó light]
+> **b)** Más preguntas — seguí indagando
+> **c)** Avanzar al siguiente bloque
+
+Actualizá `org-profile.md`.
 
 ---
 
@@ -142,7 +162,15 @@ Preguntas de diseño:
 - ¿Constraints del ambiente de deployment? (on-prem, cloud, edge, restricciones de red)
 - ¿Cómo se espera que evolucione este agente en los próximos 6 meses?
 
-**Al terminar Bloque C:** Resumen completo de todo Discovery. Actualizá `state.json` → discovery.status = "completed".
+**Al terminar Bloque C:** Resumen completo de todo Discovery. Preguntá:
+
+**"¿Querés profundizar en algún tema, seguir explorando con más preguntas, o cerramos Discovery?"**
+
+> **a)** Profundizar en [tema específico que quedó light]
+> **b)** Más preguntas — seguí indagando
+> **c)** Cerrar Discovery y avanzar
+
+Actualizá `state.json` → discovery.status = "completed".
 
 ---
 
@@ -158,10 +186,23 @@ Modelo:       <chosen>
 Scope:        <1-line summary>
 Guardrails:   <count> reglas definidas
 Integraciones: <list>
+
+📁 Archivos generados/actualizados:
+  - ask-state/discovery.md — Transcript completo de la entrevista
+  - ask-state/agent-spec.md — Especificación del agente
+  - ask-state/org-profile.md — Perfil organizacional
+  - ask-state/state.json — Estado actualizado
 ---
 
-¿Avanzamos a Research (/ask:research) o querés profundizar en algo?
+¿Querés seguir indagando en algún área, o avanzamos a Research (/ask:research)?
+
+> **a)** Quiero profundizar en [área]
+> **b)** Más preguntas sobre el agente
+> **c)** Avanzar a Research
 ```
+
+💡 Si la conversación se hizo larga, podés iniciar una sesión nueva.
+Los archivos de contexto ya están guardados — usá `/ask:resume` en la nueva sesión para retomar con contexto fresco.
 
 Update state:
 ```json
